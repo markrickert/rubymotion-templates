@@ -1,5 +1,7 @@
 # RubyMotion Templates
-A set of template filders for RubyMotion 2.0+
+A set of template folders for [RubyMotion](http://www.rubymotion.com) 2.0+
+
+Rubymotion 2.0 introduced the concept of "templates" to create pre-configured development startingpoints. This repository is meant to be a place for people to share their custom templates in hopes that others will be able to get up and running quicker with RubyMotion development.
 
 ## How To use
 
