@@ -10,4 +10,5 @@ A set of template filders for RubyMotion 2.0+
 
 1. Fork the repository
 2. Add your template or fix an existing template
-3. Send me a pull request
+3. Generate a project with the template and run `bundle && rake` to make sure the template compiles. I will not merge templates that do not compile as blank projects.
+4. Send me a pull request
