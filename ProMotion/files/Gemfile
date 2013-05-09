@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+# RubyMotion
+gem 'ProMotion'
+
+# Rubygems
+gem "rake", '>= 0.9.4'
