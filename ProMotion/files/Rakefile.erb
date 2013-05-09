@@ -9,4 +9,10 @@ Bundler.require
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = '<%= name %>'
+
+  app.pods do
+    pod 'SDWebImage' #Required to load in remote images with ProMotion
+    pod 'CKRefreshControl' # For pull-to-refresh on iOS 5 & ProMotion 0.6+
+  end
+
 end
