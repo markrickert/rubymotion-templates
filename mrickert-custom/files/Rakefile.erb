@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project/template/ios'
+require 'bundler'
+
+Bundler.setup
+Bundler.require
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = '<%= name %>'
+  # app.deployment_target = '5.1'
+  # app.device_family = [:iphone, :ipad]
+  # app.frameworks += []
+  # app.identifier = ''
+  # app.interface_orientations = [:portrait]
+  # app.prerendered_icon = true
+  # app.short_version = ''
+  # app.version = ''
+
+  app.pods do
+    # pod 'FlurrySDK' # Analytics
+    # pod 'Appirater' # Prompt users to rate the app after X days
+    pod 'SDWebImage' #Required to load in remote images with ProMotion
+    pod 'CKRefreshControl' # For pull-to-refresh on iOS 5
+  end
+
+end
